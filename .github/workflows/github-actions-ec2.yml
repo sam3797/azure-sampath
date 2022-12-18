@@ -10,10 +10,9 @@ jobs:
   deploy:
     name: Deploy to EC2 on main branch push
     runs-on: ubuntu-latest
-
-    steps:
+    
+     steps:
       - name: Checkout the files
-        uses: actions/checkout@v2
 
       - name: Deploy to Server 1
         uses: sam3797/sampath@main
