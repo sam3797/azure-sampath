@@ -1,6 +1,6 @@
 name: "ssh deploy"
 description: "NodeJS action for FAST deployment with rsync/ssh"
-author: "easingthemes"
+author: "sam3797"
 inputs:
   SSH_PRIVATE_KEY: # Private Key
     description: "Private Key"
@@ -36,7 +36,7 @@ outputs:
     description: "Status"
 runs:
   using: "html"
-  main: "var/www/html/index.html"
+  main: "/var/www/html/index.html"
 branding:
   color: "green"
   icon: "truck"
